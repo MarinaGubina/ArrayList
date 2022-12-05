@@ -1,27 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b5f8603-1fac-4401-9502-4d2471a67842" name="Changes" comment="" />
+    <list default="true" id="5b5f8603-1fac-4401-9502-4d2471a67842" name="Changes" comment="ДЗ. Алгоритмы часть 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayListInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayListIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListIntegerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hw" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="MarinaGubina" />
+        <option name="repository" value="ArrayList" />
+      </RepoCoordinatesHolder>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IJ8KXduGmo2XsV1aQk6ulXPZxS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gubin/IdeaProjects/ArrayList&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.ArrayListIntegerTest">
+    <configuration name="ArrayListIntegerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ArrayList" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListIntegerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListIntegerTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ArrayList" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListIntegerTest" />
+      <option name="METHOD_NAME" value="remove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListIntegerTest.removeWithIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ArrayList" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListIntegerTest" />
+      <option name="METHOD_NAME" value="removeWithIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListIntegerTest.shouldTrueContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ArrayList" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListIntegerTest" />
+      <option name="METHOD_NAME" value="shouldTrueContains" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListIntegerTest.toArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ArrayList" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListIntegerTest" />
+      <option name="METHOD_NAME" value="toArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArrayListIntegerTest" />
+        <item itemvalue="JUnit.ArrayListIntegerTest.shouldTrueContains" />
+        <item itemvalue="JUnit.ArrayListIntegerTest.toArray" />
+        <item itemvalue="JUnit.ArrayListIntegerTest.remove" />
+        <item itemvalue="JUnit.ArrayListIntegerTest.removeWithIndex" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -30,8 +123,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669888749030</updated>
+      <workItem from="1669888751742" duration="8701000" />
+      <workItem from="1670233269166" duration="15166000" />
+      <workItem from="1670324972062" duration="13548000" />
+      <workItem from="1670340348533" duration="630000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1669888810155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669888810155</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ДЗ. Алгоритмы часть 1">
+      <created>1670249377395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670249377395</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ДЗ. Алгоритмы часть 2">
+      <created>1670339997315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670339997315</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -43,5 +165,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="ДЗ. Алгоритмы часть 1" />
+    <MESSAGE value="ДЗ. Алгоритмы часть 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ. Алгоритмы часть 2" />
   </component>
 </project>
