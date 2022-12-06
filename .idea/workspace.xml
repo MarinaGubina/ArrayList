@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b5f8603-1fac-4401-9502-4d2471a67842" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/ArrayListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayListServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/ArraySizeOverrunException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/IndexLargerThanSizeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/ItemEqualsNullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringList.java" afterDir="false" />
+    <list default="true" id="5b5f8603-1fac-4401-9502-4d2471a67842" name="Changes" comment="ДЗ. Алгоритмы часть 1">
+      <change afterPath="$PROJECT_DIR$/src/ArrayListInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayListIntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntegerList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayListServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +31,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="MarinaGubina" />
+        <option name="repository" value="ArrayList" />
+      </RepoCoordinatesHolder>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -41,19 +47,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/gubin/IdeaProjects/ArrayList"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gubin/IdeaProjects/ArrayList&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.ArrayListServiceTest">
+}</component>
+  <component name="RunManager" selected="JUnit.ArrayListIntegerTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ArrayList" />
@@ -61,40 +67,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListIntegerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ArrayList" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListIntegerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListServiceTest.equals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListIntegerTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ArrayList" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListServiceTest" />
-      <option name="METHOD_NAME" value="equals" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListIntegerTest" />
+      <option name="METHOD_NAME" value="remove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListServiceTest.shouldAddString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListIntegerTest.removeWithIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ArrayList" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListServiceTest" />
-      <option name="METHOD_NAME" value="shouldAddString" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListIntegerTest" />
+      <option name="METHOD_NAME" value="removeWithIndex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListServiceTest.shouldAddWithIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListIntegerTest.toArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ArrayList" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListServiceTest" />
-      <option name="METHOD_NAME" value="shouldAddWithIndex" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListIntegerTest" />
+      <option name="METHOD_NAME" value="toArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,10 +108,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArrayListServiceTest" />
-        <item itemvalue="JUnit.ArrayListServiceTest.equals" />
-        <item itemvalue="JUnit.ArrayListServiceTest.shouldAddWithIndex" />
-        <item itemvalue="JUnit.ArrayListServiceTest.shouldAddString" />
+        <item itemvalue="JUnit.ArrayListIntegerTest" />
+        <item itemvalue="JUnit.ArrayListIntegerTest.toArray" />
+        <item itemvalue="JUnit.ArrayListIntegerTest.remove" />
+        <item itemvalue="JUnit.ArrayListIntegerTest.removeWithIndex" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -119,7 +125,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669888749030</updated>
       <workItem from="1669888751742" duration="8701000" />
-      <workItem from="1670233269166" duration="14817000" />
+      <workItem from="1670233269166" duration="15166000" />
+      <workItem from="1670324972062" duration="13175000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669888810155</created>
@@ -128,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669888810155</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ДЗ. Алгоритмы часть 1">
+      <created>1670249377395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670249377395</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +161,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="ДЗ. Алгоритмы часть 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ. Алгоритмы часть 1" />
   </component>
 </project>

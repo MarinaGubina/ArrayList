@@ -1,39 +1,71 @@
-import Exceptions.ArraySizeOverrunException;
 import Exceptions.IndexLargerThanSizeException;
 import Exceptions.ItemEqualsNullException;
 
 import java.util.Arrays;
 
-public class ArrayListService implements StringList{
+public class ArrayListInteger implements IntegerList{
 
     private int size;
+    public Integer[] list;
 
-    public String[] list;
-
-    public ArrayListService(int capacity) {
-        list = new String[capacity];
+    public ArrayListInteger(int capacity) {
+        list = new Integer[capacity];
     }
 
-    public void validItem(String item) {
-        if(item == null || item.isEmpty()){
+    public void validItem(Integer item) {
+        if(item == null){
             throw new ItemEqualsNullException("Неверный формат");
         }
     }
 
     public void validIndex(int index) {
-        if(index >= size || index < 0){
+        if(index > size || index < 0){
             throw new IndexLargerThanSizeException("Индекс выходит за пределы массива или фактической его длины");
         }
     }
 
     public void validSize(){
         if(size == list.length){
-            throw new ArraySizeOverrunException("Выход за пределы массива");
+            list = Arrays.copyOf(list,size * 2);
         }
     }
 
+    private void sortSelection(Integer[] arr){
+        for (int i = 0; i < size - 1; i++) {
+            int minElementIndex = i;
+            for (int j = i + 1; j < size; j++) {
+                if (arr[j] < arr[minElementIndex]) {
+                    minElementIndex = j;
+                }
+            }
+            int tmp = arr[minElementIndex];
+            arr[minElementIndex] = arr[i];
+            arr[i] = tmp;
+        }
+    }
+
+    private boolean binarySearch(Integer item){
+        int min = 0;
+        int max = size - 1;
+
+        while (min <= max) {
+            int mid = (min + max) / 2;
+
+            if (item == list[mid]) {
+                return true;
+            }
+
+            if (item < list[mid]) {
+                max = mid - 1;
+            } else {
+                min = mid + 1;
+            }
+        }
+        return false;
+    }
+
     @Override
-    public String add(String item){
+    public Integer add(Integer item) {
         validSize();
         validItem(item);
         list[size++] = item;
@@ -41,7 +73,7 @@ public class ArrayListService implements StringList{
     }
 
     @Override
-    public String add(int index, String item){
+    public Integer add(int index, Integer item) {
         validItem(item);
         validIndex(index);
         validSize();
@@ -57,7 +89,7 @@ public class ArrayListService implements StringList{
     }
 
     @Override
-    public String set(int index, String item){
+    public Integer set(int index, Integer item) {
         validItem(item);
         validIndex(index);
         list[index] = item;
@@ -65,7 +97,7 @@ public class ArrayListService implements StringList{
     }
 
     @Override
-    public String remove(String item) {
+    public Integer remove(Integer item) {
         validItem(item);
         int index = indexOf(item);
 
@@ -80,9 +112,9 @@ public class ArrayListService implements StringList{
     }
 
     @Override
-    public String remove(int index) {
+    public Integer remove(int index) {
         validIndex(index);
-        String item = list[index];
+        Integer item = list[index];
         if(index != size){
             System.arraycopy(list,index+1,list,index, size - index);
         }
@@ -91,12 +123,13 @@ public class ArrayListService implements StringList{
     }
 
     @Override
-    public boolean contains(String item) {
-        return indexOf(item) != -1;
+    public boolean contains(Integer item) {
+        sortSelection(list);
+        return binarySearch(item);
     }
 
     @Override
-    public int indexOf(String item) {
+    public int indexOf(Integer item) {
         for(int i = 0 ; i < size  ; i++){
             if(list[i].equals(item)){
                 return i;
@@ -106,7 +139,7 @@ public class ArrayListService implements StringList{
     }
 
     @Override
-    public int lastIndexOf(String item) {
+    public int lastIndexOf(Integer item) {
         for(int i = size - 1 ; i > 0 ; i--){
             if(list[i].equals(item)){
                 return i;
@@ -116,14 +149,14 @@ public class ArrayListService implements StringList{
     }
 
     @Override
-    public String get(int index) {
+    public Integer get(int index) {
         validIndex(index);
         return list[index];
     }
 
     @Override
-    public boolean equals(StringList otherList) {
-        return Arrays.equals(otherList.toArray(),this.toArray());
+    public boolean equals(IntegerList otherList) {
+        return Arrays.equals(otherList.toArray(), this.toArray());
     }
 
     @Override
@@ -142,7 +175,7 @@ public class ArrayListService implements StringList{
     }
 
     @Override
-    public String[] toArray() {
+    public Integer[] toArray() {
         return Arrays.copyOf(list,size);
     }
 }
