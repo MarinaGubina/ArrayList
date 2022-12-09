@@ -21,7 +21,15 @@ public class ArrayListIntegerTest {
     }
 
     @Test
-    public void shouldAddString(){
+    public void shouldAddIntAndIncreaseCapacity(){
+        ArrayListInteger arrTest = new ArrayListInteger(2);
+        arrTest.add(ITEM_TEST);
+        arrTest.add(ITEM_TEST);
+        arrTest.add(ITEM_TEST);
+        assertEquals((int)3,arrTest.size());
+    }
+    @Test
+    public void shouldAddInt(){
         int actual = arr.add(ITEM_TEST);
         assertEquals(ITEM_TEST,actual);
     }

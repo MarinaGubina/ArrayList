@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b5f8603-1fac-4401-9502-4d2471a67842" name="Changes" comment="ДЗ. Алгоритмы часть 2">
+    <list default="true" id="5b5f8603-1fac-4401-9502-4d2471a67842" name="Changes" comment="ДЗ. Алгоритмы часть 2. Доработка">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayListInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayListIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListIntegerTest.java" afterDir="false" />
@@ -22,10 +22,20 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw" />
+        <entry key="$PROJECT_DIR$" value="hwAlgorithms_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="ДЗ. Алгоритмы часть 1" />
+        <option name="rewordedMessage" value="ДЗ. Алгоритмы часть 1 и 2" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="ce4fd1ae4ed92ea9c2f895fe2029dd7917a33a04" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="recentNewPullRequestHead">
@@ -126,7 +136,8 @@
       <workItem from="1669888751742" duration="8701000" />
       <workItem from="1670233269166" duration="15166000" />
       <workItem from="1670324972062" duration="13548000" />
-      <workItem from="1670340348533" duration="630000" />
+      <workItem from="1670340348533" duration="789000" />
+      <workItem from="1670591206774" duration="1514000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669888810155</created>
@@ -149,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670339997315</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ДЗ. Алгоритмы часть 2. Доработка">
+      <created>1670341131540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670341131540</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +188,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="ДЗ. Алгоритмы часть 1" />
     <MESSAGE value="ДЗ. Алгоритмы часть 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ. Алгоритмы часть 2" />
+    <MESSAGE value="ДЗ. Алгоритмы часть 2. Доработка" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ. Алгоритмы часть 2. Доработка" />
   </component>
 </project>
